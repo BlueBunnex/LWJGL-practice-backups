@@ -1,14 +1,14 @@
 # LWJGL-practice-backups
 As I practice using LWJGL, I'll make backups of some cool stuff I make here. It will be messy!
 
-LWJGL Guide for Java (Eclipse) notes
+## LWJGL Notes for Java (Eclipse)
 
-## Setup
+### Setup
 install and basic script -> https://www.lwjgl.org/guide 
 
 To run: Right click the project > Run as > Run Configurations... > Arguments > VM arguments, paste in -XstartOnFirstThread
 
-## Basic drawing
+### Basic drawing
 drawing circle -> https://jvm-gaming.org/t/drawing-polygons-and-ellipses-using-lwjgl/37692/3 
 
 learn about GL_TRIANGLE_FAN alternatives -> https://www.khronos.org/opengl/wiki/Primitive 
