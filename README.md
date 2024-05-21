@@ -22,3 +22,6 @@ https://www.lighthouse3d.com/tutorials/glsl-12-tutorial/shader-examples/
 
 1.2 specs https://registry.khronos.org/OpenGL/specs/gl/GLSLangSpec.1.20.pdf
 
+https://learnopengl.com/Getting-started/Textures
+
+http://forum.lwjgl.org/index.php?topic=3362.0
