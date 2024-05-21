@@ -1,0 +1,16 @@
+#version 120
+
+#define M_PI 3.1415926535897932384626433832795
+#define FOV  90
+
+void main() {
+	gl_Position = ftransform(); //gl_Position = gl_ProjectionMatrix * gl_ModelViewMatrix * gl_Vertex;
+	
+	// FOV
+	gl_Position.x /= tan(FOV * 0.5 * M_PI / 180);
+	gl_Position.y /= tan(FOV * 0.5 * M_PI / 180);
+	
+	gl_Position.w = gl_Position.z;
+	
+	gl_TexCoord[0] = gl_TextureMatrix[0] * gl_MultiTexCoord0;
+}
