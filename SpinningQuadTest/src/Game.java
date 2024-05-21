@@ -103,7 +103,7 @@ public class Game {
 			
 			float z1 = 0.8f + (float) Math.sin(t) * 0.08f;
 			float z2 = 0.8f - (float) Math.sin(t) * 0.08f;
-			float x1 = (float) Math.cos(t) / 2;
+			float x1 =  (float) Math.cos(t) / 2;
 			float x2 = -(float) Math.cos(t) / 2;
 			
 			t += 0.01;
